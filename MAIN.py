@@ -17,7 +17,7 @@ ticket_prices = [
 ]
 
 visitor_restrictions = ["No flash photography", "No food or drinks", "No touching artworks"] # list of strings, displays restrictions
-tax_rate = 0.10 # this is a float
+tax_rate = 0.9 # this is a float
 
 # displays on the page the variables' value :)
 display(f"This is {museum_name}", target="about")
@@ -38,4 +38,5 @@ for ticket in ticket_prices:
 
 # styling restriction section
 for rule in visitor_restrictions:
+
     display(HTML(f"<li class='list-group-item'>{rule}</li>"), target="rules")
