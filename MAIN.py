@@ -38,5 +38,4 @@ for ticket in ticket_prices:
 
 # styling restriction section
 for rule in visitor_restrictions:
-
     display(HTML(f"<li class='list-group-item'>{rule}</li>"), target="rules")
